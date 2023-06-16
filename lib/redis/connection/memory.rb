@@ -14,7 +14,7 @@ require "fakeredis/version"
 
 class Redis
   module Connection
-    DEFAULT_REDIS_VERSION = '3.3.5'
+    DEFAULT_REDIS_VERSION = '4.8.1'
 
     class Memory
       include Redis::Connection::CommandHelper
